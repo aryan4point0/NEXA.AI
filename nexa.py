@@ -174,16 +174,16 @@ def processCommand(c):
         "google": "https://www.google.com",
         "spotify": "https://open.spotify.com/collection/tracks",
         "netflix": "https://www.netflix.com/browse",
-        "linkedin": "https://www.linkedin.com/in/aryan-singh-876b13255/",
+        "linkedin": "https://www.linkedin.com",
         "instagram": "https://www.instagram.com",
-        "github": "https://github.com/aryan4point0",
+        "github": "https://github.com",
         "whatsapp": "https://web.whatsapp.com",
         "chatgpt": "https://chat.openai.com",
         "facebook": "https://www.facebook.com",
-        "twitter": "https://x.com/AryanSi63952748",
+        "twitter": "https://x.com",
         "gdg":"https://www.skills.google/profile/activity",
         "forage":"https://www.theforage.com/dashboard",
-        "gmail":"https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox",
+        "gmail":"https://mail.google.com",
     }
 
     for name, url in sites.items():
@@ -401,4 +401,5 @@ if __name__ == "__main__":
                 logging.exception("An error occurred:")
                 print("❌ Error:", error)
                 continue
+
 
